@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Threadline — Classic Oversized Tee</title>
+<meta name="description" content="Threadline Classic Oversized Tee — premium heavyweight cotton, relaxed fit, built to last. Shop now.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== ANNOUNCEMENT BAR ===== -->
+<div class="announce-bar">
+  Free shipping on orders over ₹999 &nbsp;|&nbsp; New Arrivals just dropped
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <button class="icon-btn" id="menuBtn" aria-label="Menu">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <button class="icon-btn hide-mobile" aria-label="Search">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    </button>
+    <a href="#top" class="logo">THREADLINE</a>
+    <div class="header-right">
+      <button class="icon-btn hide-mobile" aria-label="Account">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+      </button>
+      <button class="icon-btn cart-btn" aria-label="Cart">
+        <svg viewBox="0 0 24 24"><path d="M4 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="10" cy="21" r="1"/><circle cx="17" cy="21" r="1"/></svg>
+        <span class="cart-count">2</span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#product">Shop</a>
+    <a href="#description">Details</a>
+    <a href="#size-guide">Size Guide</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#product" class="drawer-cta">Buy Now</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== PRODUCT / HERO ===== -->
+  <section class="product-section" id="product">
+    <div class="product-grid">
+
+      <!-- gallery -->
+      <div class="gallery reveal">
+        <div class="gallery-main">
+          <span class="tag-new">New</span>
+          <img id="mainImage" src="https://picsum.photos/seed/tee-main/700/840" alt="Threadline Classic Oversized Tee — front view">
+        </div>
+        <div class="gallery-thumbs">
+          <button class="thumb active" data-img="https://picsum.photos/seed/tee-main/700/840">
+            <img src="https://picsum.photos/seed/tee-main/160/190" alt="Front view thumbnail">
+          </button>
+          <button class="thumb" data-img="https://picsum.photos/seed/tee-back/700/840">
+            <img src="https://picsum.photos/seed/tee-back/160/190" alt="Back view thumbnail">
+          </button>
+          <button class="thumb" data-img="https://picsum.photos/seed/tee-model1/700/840">
+            <img src="https://picsum.photos/seed/tee-model1/160/190" alt="Model wearing tee thumbnail">
+          </button>
+          <button class="thumb" data-img="https://picsum.photos/seed/tee-fabric/700/840">
+            <img src="https://picsum.photos/seed/tee-fabric/160/190" alt="Fabric close-up thumbnail">
+          </button>
+        </div>
+      </div>
+
+      <!-- product info -->
+      <div class="product-info reveal">
+        <p class="eyebrow">Threadline Essentials</p>
+        <h1>Classic Oversized Tee</h1>
+        <div class="rating-row">
+          <span class="stars">★★★★★</span>
+          <span class="rating-text">4.7/5 <span class="muted">(1,204 reviews)</span></span>
+        </div>
+
+        <div class="price-row">
+          <span class="price-new">₹899</span>
+          <span class="price-old">₹1,299</span>
+          <span class="price-save">31% OFF</span>
+        </div>
+
+        <p class="product-desc">Heavyweight 240 GSM cotton with a relaxed, oversized fit. Garment-dyed for a soft worn-in feel from day one — built for everyday wear that lasts.</p>
+
+        <!-- color selector -->
+        <div class="option-group">
+          <span class="option-label">Colour: <strong id="colorLabel">Charcoal</strong></span>
+          <div class="swatch-row">
+            <button class="swatch active" style="background:#2B2B2B;" data-color="Charcoal" aria-label="Charcoal"></button>
+            <button class="swatch" style="background:#EDE6D6;" data-color="Sand" aria-label="Sand"></button>
+            <button class="swatch" style="background:#5A6B57;" data-color="Olive" aria-label="Olive"></button>
+            <button class="swatch" style="background:#7C3A2D;" data-color="Rust" aria-label="Rust"></button>
+          </div>
+        </div>
+
+        <!-- size selector -->
+        <div class="option-group">
+          <span class="option-label">Size: <strong id="sizeLabel">M</strong> &nbsp;<a href="#size-guide" class="size-guide-link">Size guide</a></span>
+          <div class="size-row">
+            <button class="size-btn" data-size="S">S</button>
+            <button class="size-btn active" data-size="M">M</button>
+            <button class="size-btn" data-size="L">L</button>
+            <button class="size-btn" data-size="XL">XL</button>
+            <button class="size-btn" data-size="XXL">XXL</button>
+          </div>
+        </div>
+
+        <!-- quantity -->
+        <div class="option-group">
+          <span class="option-label">Quantity</span>
+          <div class="qty-selector">
+            <button id="qtyMinus" aria-label="Decrease quantity">−</button>
+            <input type="text" id="qtyValue" value="1" readonly>
+            <button id="qtyPlus" aria-label="Increase quantity">+</button>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-lg btn-block" id="addToCartBtn">Add to Cart</button>
+        <a href="https://wa.me/911234567890?text=Hi%2C%20I%27d%20like%20to%20order%20the%20Threadline%20Classic%20Oversized%20Tee." target="_blank" rel="noopener" class="btn btn-outline btn-lg btn-block">Order via WhatsApp</a>
+
+        <ul class="trust-list">
+          <li>✓ Free shipping over ₹999</li>
+          <li>✓ 15-day easy returns</li>
+          <li>✓ 100% cotton, pre-shrunk</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DESCRIPTION WITH PHOTOS ===== -->
+  <section class="description" id="description">
+    <div class="sec-head reveal">
+      <p class="eyebrow" style="text-align:center;">The Details</p>
+      <h2>Made to Be Lived In</h2>
+      <p class="sec-sub">Every Threadline tee starts with heavyweight cotton and ends with a fit you'll reach for on repeat.</p>
+    </div>
+
+    <div class="desc-block reveal">
+      <img src="https://picsum.photos/seed/tee-fabric-2/600/500" alt="Close-up of heavyweight cotton fabric texture" class="desc-img">
+      <div class="desc-text">
+        <h3>240 GSM Heavyweight Cotton</h3>
+        <p>A thicker, more substantial cotton than your average tee — it holds its shape wash after wash and gets softer with every wear, without ever feeling thin or see-through.</p>
+      </div>
+    </div>
+
+    <div class="desc-block reverse reveal">
+      <img src="https://picsum.photos/seed/tee-model-2/600/500" alt="Model wearing the oversized tee in a relaxed pose" class="desc-img">
+      <div class="desc-text">
+        <h3>Relaxed, Oversized Fit</h3>
+        <p>Dropped shoulders and a boxy silhouette give this tee an effortless, off-duty look — equally at home tucked in or worn loose over your favourite denim.</p>
+      </div>
+    </div>
+
+    <div class="desc-block reveal">
+      <img src="https://picsum.photos/seed/tee-model-3/600/500" alt="Model wearing the tee from behind, showing back print detail" class="desc-img">
+      <div class="desc-text">
+        <h3>Garment-Dyed Finish</h3>
+        <p>Dyed after construction for a rich, slightly faded tone and a naturally soft hand-feel — no two washes ever look quite the same.</p>
+      </div>
+    </div>
+
+    <div class="desc-gallery reveal">
+      <img src="https://picsum.photos/seed/tee-flat1/400/500" alt="Flat lay of folded tee">
+      <img src="https://picsum.photos/seed/tee-detail1/400/500" alt="Close-up of stitched hem detail">
+      <img src="https://picsum.photos/seed/tee-model-4/400/500" alt="Model wearing tee outdoors">
+    </div>
+  </section>
+
+  <!-- ===== SIZE GUIDE ===== -->
+  <section class="size-guide" id="size-guide">
+    <div class="sec-head reveal">
+      <h2>Size Guide</h2>
+      <p class="sec-sub">Measurements in inches. Model is 5'11" wearing size M.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <table>
+        <thead>
+          <tr><th>Size</th><th>Chest</th><th>Length</th><th>Shoulder</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S</td><td>40</td><td>27</td><td>19</td></tr>
+          <tr><td>M</td><td>42</td><td>28</td><td>20</td></tr>
+          <tr><td>L</td><td>44</td><td>29</td><td>21</td></tr>
+          <tr><td>XL</td><td>46</td><td>30</td><td>22</td></tr>
+          <tr><td>XXL</td><td>48</td><td>31</td><td>23</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ===== BENEFITS ===== -->
+  <section class="benefits">
+    <div class="benefits-grid">
+      <div class="benefit-item reveal">
+        <div class="benefit-icon">🧵</div>
+        <h3>Premium Cotton</h3>
+        <p>240 GSM heavyweight fabric that holds its shape and softens over time.</p>
+      </div>
+      <div class="benefit-item reveal">
+        <div class="benefit-icon">📦</div>
+        <h3>Fast Shipping</h3>
+        <p>Dispatched within 24 hours, free on all orders over ₹999.</p>
+      </div>
+      <div class="benefit-item reveal">
+        <div class="benefit-icon">↩️</div>
+        <h3>Easy Returns</h3>
+        <p>15-day hassle-free returns and exchanges, no questions asked.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews" id="reviews">
+    <div class="sec-head reveal">
+      <p class="eyebrow" style="text-align:center;">Customer Love</p>
+      <h2>What People Are Saying</h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <span class="stars">★★★★★</span>
+        <p>"Fabric quality is genuinely premium — feels heavier and better than tees twice the price."</p>
+        <div class="reviewer">— Aditya R.</div>
+      </div>
+      <div class="review-card reveal">
+        <span class="stars">★★★★★</span>
+        <p>"The oversized fit is exactly what I wanted, and it hasn't lost shape after multiple washes."</p>
+        <div class="reviewer">— Meera K.</div>
+      </div>
+      <div class="review-card reveal">
+        <span class="stars">★★★★☆</span>
+        <p>"Great tee, true to size guide. Would love more colour options soon."</p>
+        <div class="reviewer">— Verified Buyer</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="sec-head reveal">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q">Does this tee shrink after washing?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>It's pre-shrunk, so you can expect minimal shrinkage with normal machine wash on cold.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is the fit true to size?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Yes, it fits true to size with an intentionally relaxed, oversized cut. Check the size guide above if you're between sizes.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What is the return policy?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>15-day easy returns and exchanges on unworn items with tags attached.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I place an order via WhatsApp?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Tap "Order via WhatsApp" above with your chosen size and colour, and our team will confirm your order directly on chat.</p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="logo light">THREADLINE</a>
+      <p>Everyday essentials, made to last.</p>
+      <div class="payment-icons">
+        <span>VISA</span><span>Mastercard</span><span>UPI</span><span>Apple Pay</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="#product">Product</a>
+      <a href="#description">Details</a>
+      <a href="#size-guide">Size Guide</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+    <div class="footer-col newsletter">
+      <h4>Stay Updated</h4>
+      <p>New drops and offers, straight to your inbox.</p>
+      <form class="email-form" id="emailForm">
+        <input type="email" placeholder="Email address" required>
+        <button type="submit" aria-label="Subscribe">→</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Threadline. All rights reserved.</span>
+    <span><a href="#">Privacy Policy</a> · <a href="#">Contact</a></span>
+  </div>
+</footer>
+
+<!-- ===== STICKY BOTTOM BAR ===== -->
+<div class="sticky-bar" id="stickyBar">
+  <div class="sticky-info">
+    <span class="price-new">₹899</span>
+    <span class="sticky-size">Size: <strong id="stickySize">M</strong></span>
+  </div>
+  <a href="#product" class="btn btn-primary">Add to Cart</a>
+</div>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a class="wa-float" href="https://wa.me/911234567890?text=Hi%2C%20I%27d%20like%20to%20order%20the%20Threadline%20Classic%20Oversized%20Tee." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.1.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.1-.3 0-.4.1-.6l.4-.5c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.4.8 3.1 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.1c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C3.9 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.6-8.5 8.6z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
